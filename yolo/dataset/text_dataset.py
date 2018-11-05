@@ -7,7 +7,7 @@ import math
 import random
 import cv2
 import numpy as np
-from Queue import Queue 
+from Queue import Queue  #3.x 中改为queue
 from threading import Thread
 
 from yolo.dataset.dataset import DataSet 
